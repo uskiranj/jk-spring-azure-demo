@@ -12,7 +12,7 @@ public class JkSpringAzureDemoApplication {
 	@GetMapping("/hello")
 	public String message()
 	{
-		return "Hello First azure spring app";
+		return "Hello First azure spring app redeployed";
 	}
 
 	public static void main(String[] args) {
